@@ -1,0 +1,12 @@
+﻿Duracion de una hora en el programa:    1000
+Capacidad máxima mesón entradas:        20
+Capacidad máxima mesón fuertes:         30
+Capacidad máxima mesón postres:         10
+Cantidad inicial cocineros entradas:    1
+Cantidad inicial cocineros fuertes:     1
+Cantidad inicial cocineros postres:     1
+Cantidad máxima cocineros entradas:     3
+Cantidad máxima cocineros fuertes:      4
+Cantidad máxima cocineros postres:      2
+Cantidad inicial mesoneros:             1
+Cantidad máxima mesoneros:              6
