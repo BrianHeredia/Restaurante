@@ -30,7 +30,7 @@
               </Group>
               <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
               <Component id="Cerradas" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="254" max="32767" attributes="0"/>
+              <EmptySpace pref="110" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -64,47 +64,47 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="Entradas">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="entradas cocinadas"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="Fuertes">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="fuertes cocinados"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="Postres">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="postres cocinados"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="Ordenes">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="ordenes cocinadas"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="Cerradas">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="dias terminados"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="CantidadE">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="Cantidad cocineros entradas"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="CantidadF">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel2"/>
+        <Property name="text" type="java.lang.String" value="Cantidad cocineros fuertes"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="CantidadP">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel3"/>
+        <Property name="text" type="java.lang.String" value="Cantidad cocineros postres"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="CantidadM">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="Cantidad de mesoneros"/>
       </Properties>
     </Component>
   </SubComponents>

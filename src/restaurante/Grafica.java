@@ -138,23 +138,23 @@ public class Grafica extends javax.swing.JPanel {
         CantidadP = new javax.swing.JLabel();
         CantidadM = new javax.swing.JLabel();
 
-        Entradas.setText("jLabel1");
+        Entradas.setText("entradas cocinadas");
 
-        Fuertes.setText("jLabel1");
+        Fuertes.setText("fuertes cocinados");
 
-        Postres.setText("jLabel1");
+        Postres.setText("postres cocinados");
 
-        Ordenes.setText("jLabel1");
+        Ordenes.setText("ordenes cocinadas");
 
-        Cerradas.setText("jLabel1");
+        Cerradas.setText("dias terminados");
 
-        CantidadE.setText("jLabel1");
+        CantidadE.setText("Cantidad cocineros entradas");
 
-        CantidadF.setText("jLabel2");
+        CantidadF.setText("Cantidad cocineros fuertes");
 
-        CantidadP.setText("jLabel3");
+        CantidadP.setText("Cantidad cocineros postres");
 
-        CantidadM.setText("jLabel1");
+        CantidadM.setText("Cantidad de mesoneros");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -173,7 +173,7 @@ public class Grafica extends javax.swing.JPanel {
                     .addComponent(Entradas))
                 .addGap(170, 170, 170)
                 .addComponent(Cerradas)
-                .addContainerGap(254, Short.MAX_VALUE))
+                .addContainerGap(110, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
