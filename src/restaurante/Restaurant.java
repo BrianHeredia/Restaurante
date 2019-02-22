@@ -337,7 +337,7 @@ public class Restaurant {
        this.CrearJefe();
        this.CrearGerente();
       
-       this.R.getGrafica().getDespacho().setText(Integer.toString(this.R.getTiempo())); 
+       this.R.getGrafica().getCerradas().setText(Integer.toString(this.R.getTiempo())); 
    }
 
     public Cocinero[] getCocineroE() {

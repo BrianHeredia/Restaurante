@@ -115,7 +115,7 @@ public class JefeMesoneros extends Thread{
      
       if(this.r.getCont()!=0 && this.r.getCont()>0){
           this.r.setCont(this.r.getCont()-1);
-          this.r.getGrafica().getDespacho().setText(Integer.toString(this.r.getCont()));
+          this.r.getGrafica().getCerradas().setText(Integer.toString(this.r.getCont()));
       }
 
   } 

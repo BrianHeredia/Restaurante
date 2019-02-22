@@ -106,7 +106,7 @@ public class Gerente extends Thread{
                     if(this.r.getCont()==0){
                         this.Cerrar();
                         this.r.setCont(this.r.getTiempo());
-                        this.r.getGrafica().getDespacho().setText(Integer.toString(this.r.getCont()));
+                        this.r.getGrafica().getCerradas().setText(Integer.toString(this.r.getCont()));
                         this.r.getGrafica().getOrdenes().setText(Integer.toString(this.r.getMesonr()));
                     }
                 SEM.release(1);

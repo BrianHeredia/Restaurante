@@ -288,7 +288,7 @@ public class Mesonero extends Thread{
        }
     }
     
-    public void ConsumirCables(){
+    public void ConsumirEntradas(){
         this.r.getMesonE().setVec(this.r.getConsumirE(), 0);
         this.r.setConsumirE((this.r.getConsumirE()+1)%this.r.getMesonE().getTam());
         this.r.getMesonE().setVec(this.r.getConsumirE(), 0);

@@ -19,26 +19,43 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="CantidadM" min="-2" max="-2" attributes="0"/>
+                  <Component id="CantidadP" min="-2" max="-2" attributes="0"/>
+                  <Component id="CantidadF" min="-2" max="-2" attributes="0"/>
+                  <Component id="CantidadE" min="-2" max="-2" attributes="0"/>
                   <Component id="Ordenes" min="-2" max="-2" attributes="0"/>
                   <Component id="Postres" min="-2" max="-2" attributes="0"/>
                   <Component id="Fuertes" min="-2" max="-2" attributes="0"/>
                   <Component id="Entradas" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="458" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
+              <Component id="Cerradas" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="254" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="247" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Component id="CantidadE" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="CantidadF" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="CantidadP" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="CantidadM" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="90" max="32767" attributes="0"/>
               <Component id="Entradas" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="Fuertes" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="Postres" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
-              <Component id="Ordenes" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Ordenes" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Cerradas" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -61,6 +78,31 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="Ordenes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Cerradas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CantidadE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CantidadF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CantidadP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CantidadM">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>

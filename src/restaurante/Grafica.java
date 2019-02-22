@@ -77,6 +77,46 @@ public class Grafica extends javax.swing.JPanel {
     public void setPostres(JLabel Postres) {
         this.Postres = Postres;
     }
+
+    public JLabel getCerradas() {
+        return Cerradas;
+    }
+
+    public void setCerradas(JLabel Cerradas) {
+        this.Cerradas = Cerradas;
+    }
+
+    public JLabel getCantidadE() {
+        return CantidadE;
+    }
+
+    public void setCantidadE(JLabel CantidadE) {
+        this.CantidadE = CantidadE;
+    }
+
+    public JLabel getCantidadF() {
+        return CantidadF;
+    }
+
+    public void setCantidadF(JLabel CantidadF) {
+        this.CantidadF = CantidadF;
+    }
+
+    public JLabel getCantidadP() {
+        return CantidadP;
+    }
+
+    public void setCantidadP(JLabel CantidadP) {
+        this.CantidadP = CantidadP;
+    }
+
+    public JLabel getCantidadM() {
+        return CantidadM;
+    }
+
+    public void setCantidadM(JLabel CantidadM) {
+        this.CantidadM = CantidadM;
+    }
     
 
     /**
@@ -92,6 +132,11 @@ public class Grafica extends javax.swing.JPanel {
         Fuertes = new javax.swing.JLabel();
         Postres = new javax.swing.JLabel();
         Ordenes = new javax.swing.JLabel();
+        Cerradas = new javax.swing.JLabel();
+        CantidadE = new javax.swing.JLabel();
+        CantidadF = new javax.swing.JLabel();
+        CantidadP = new javax.swing.JLabel();
+        CantidadM = new javax.swing.JLabel();
 
         Entradas.setText("jLabel1");
 
@@ -101,6 +146,16 @@ public class Grafica extends javax.swing.JPanel {
 
         Ordenes.setText("jLabel1");
 
+        Cerradas.setText("jLabel1");
+
+        CantidadE.setText("jLabel1");
+
+        CantidadF.setText("jLabel2");
+
+        CantidadP.setText("jLabel3");
+
+        CantidadM.setText("jLabel1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -108,29 +163,50 @@ public class Grafica extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(152, 152, 152)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(CantidadM)
+                    .addComponent(CantidadP)
+                    .addComponent(CantidadF)
+                    .addComponent(CantidadE)
                     .addComponent(Ordenes)
                     .addComponent(Postres)
                     .addComponent(Fuertes)
                     .addComponent(Entradas))
-                .addContainerGap(458, Short.MAX_VALUE))
+                .addGap(170, 170, 170)
+                .addComponent(Cerradas)
+                .addContainerGap(254, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(247, Short.MAX_VALUE)
+                .addGap(47, 47, 47)
+                .addComponent(CantidadE)
+                .addGap(18, 18, 18)
+                .addComponent(CantidadF)
+                .addGap(18, 18, 18)
+                .addComponent(CantidadP)
+                .addGap(18, 18, 18)
+                .addComponent(CantidadM)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 90, Short.MAX_VALUE)
                 .addComponent(Entradas)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(Fuertes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(Postres)
                 .addGap(60, 60, 60)
-                .addComponent(Ordenes)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Ordenes)
+                    .addComponent(Cerradas))
                 .addGap(66, 66, 66))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel CantidadE;
+    private javax.swing.JLabel CantidadF;
+    private javax.swing.JLabel CantidadM;
+    private javax.swing.JLabel CantidadP;
+    private javax.swing.JLabel Cerradas;
     private javax.swing.JLabel Entradas;
     private javax.swing.JLabel Fuertes;
     private javax.swing.JLabel Ordenes;
