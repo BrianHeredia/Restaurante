@@ -1,0 +1,12 @@
+TiempoHorasP:                 10          
+MesonE:                       20          
+MesonF:                       25          
+MesonP:                       10           
+InicialCE:                    1           
+InicialCF:                    2                 
+InicialCP:                    0             
+MaxCE:                        3                
+MaxCF:                        4                 
+MaxCP:                        3                   
+InicialM:                     0                     
+MaXM:                         6          
